@@ -1,0 +1,17 @@
+Following practices I'm following to learn react js.
+
+Create tasks. For each tasks there will be separate branches will be there.
+
+
+After Re-verification of Task's then only it will move to  Dev and another verification then app will move to 'master'.
+
+e.g.  TASK-0001 for  task-1
+
+
+Following tasks will be updated in  dev staging:
+
+TASK-0001: Write "Winter is Coming" in react-app.
+
+TASK-0002: Remove unnecesarry things in app and add your own content and render some small componant.
+
+TASK-0003: Add Labels Text-boxes Buttons etc., its not mandatory to write in one form only. display it anywhere in one page.

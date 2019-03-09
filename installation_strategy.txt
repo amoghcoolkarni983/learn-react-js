@@ -1,0 +1,17 @@
+Installation and Running this App:
+
+1. Install latest node.
+
+2. Clone the repository.
+
+3. After cloning open terminal and run following commands
+
+		cd start_react_app_work
+
+		cd my-app
+
+		npm install
+
+		npm start
+
+4. On "localhost:3000" app will be running.		
