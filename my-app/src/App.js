@@ -7,8 +7,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Greet/>
-        <Welcome/>
+        <Greet name = "Amogh" avenger = "Ironman" />
+        <Greet name = "Cool" avenger = "Captain America" />
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Welcome name = "Class Componant Name" avenger = "and Its avenger" />
+   
       </div>
     );
   }
