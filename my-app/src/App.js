@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Message from './componants/Message'
+import Counter from './componants/Counter'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Message/>
+        <Counter/>
       </div>
     );
   }
