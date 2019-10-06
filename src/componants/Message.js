@@ -1,31 +1,27 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
-class Message extends Component
-{
+class Message extends Component {
 
 
-    constructor()
-    {
+    constructor() {
         super();
         this.state = {
-            message : 'Welcome to Youtube'
+            message: 'Welcome to Youtube'
         }
     }
 
-    changeMessage()
-    {
+    changeMessage() {
         this.setState({
-            message : 'Thank You for liking video'
+            message: 'Thank You for liking video'
         })
 
     }
 
-    render() 
-    {
+    render() {
         return (
             <div>
                 <h1>{this.state.message}</h1>
-                <button onClick = {() => this.changeMessage()}>Like Video</button>
+                <button onClick={() => this.changeMessage()}>Like Video</button>
 
             </div>
         )
