@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Counter from './componants/Counter'
+import FunctionClick from './componants/FunctionClick'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+       <FunctionClick/>
       </div>
     );
   }
